@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
 
 /*-------------------Menu-------------------*/
@@ -279,7 +280,7 @@ body {
 
 .portada h1 {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -299,9 +300,9 @@ body {
 .portadafila1 img {
     margin-top: 10px;
     margin-bottom: 30px;
-    width: 180px;
+    width: 200px;
     /*ancho*/
-    height: 180px;
+    height: 200px;
     /*alto*/
     border-radius: 50%;
     /*Aplica bordes a la img*/
@@ -402,7 +403,7 @@ textarea {
     /*-INDEX-*/
     /*Menu*/
     .menu li {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     /*Fila3*/
@@ -422,9 +423,9 @@ textarea {
 
     /*Desayuno + Box + Corporativo*/
     .portadafila1 img{
-        width: 130px;
+        width: 180px;
         /*ancho*/
-        height: 130px;
+        height: 180px;
         /*alto*/
     }
 }
@@ -452,6 +453,13 @@ textarea {
         /*ancho*/
         height: 150px;
         /*alto*/
+    }
+/*Desayuno + Box + Corporativo*/
+    .portadafila1 img {
+        width: 150px;
+        /*ancho*/
+        height: 150px;
+ 
     }
 
     /*Contacto*/
