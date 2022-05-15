@@ -1,0 +1,33 @@
+@import "variables";
+.footer {
+    background-color: $color-principal; /*VARIABLE*/
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: auto;
+    border: 0%;
+
+    strong {
+        color: #614124;
+    }
+
+    h6 {
+        color: #19282F;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}

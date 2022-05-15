@@ -1,0 +1,31 @@
+@import "variables";
+.menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-left: 0%;
+    padding-left: 0%;
+
+    li {
+        list-style-type: none;
+        padding: 10px;
+        display: inline-block;
+        /*Para que se convierta en una fila*/
+        justify-content: center;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0%;
+        border: 0%;
+
+        &:hover {
+            background-color: $color-principal; /*VARIABLE*/
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
