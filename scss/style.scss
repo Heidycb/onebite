@@ -170,11 +170,12 @@ body {
         /*Centrar la img*/
         /*Animacion*/
         transition: all 1s;
-    }
 
-    /*Animacion*/
-    &:hover {
-        transform: scale(1.1);
+
+        /*Animacion*/
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 

@@ -174,8 +174,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 35px;
-  /*Animacion*/ }
+  padding-bottom: 35px; }
   .panel2 img {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -188,9 +187,10 @@ body {
     object-fit: cover;
     /*Centrar la img*/
     /*Animacion*/
-    transition: all 1s; }
-  .panel2:hover {
-    transform: scale(1.1); }
+    transition: all 1s;
+    /*Animacion*/ }
+    .panel2 img:hover {
+      transform: scale(1.1); }
 
 /*-------------------Fila n°5-------------------*/
 .fila5 {
